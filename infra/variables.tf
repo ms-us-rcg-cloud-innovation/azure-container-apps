@@ -9,3 +9,8 @@ variable "location" {
   type        = string
   default     = "East US"
 }
+
+variable "name" {
+    description = "name of the instance"
+    default     = "acctest"
+}
